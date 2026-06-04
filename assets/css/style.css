@@ -139,6 +139,8 @@ body::before {
 .container.active .link-item:nth-child(2) { transition-delay: 0.35s; }
 .container.active .link-item:nth-child(3) { transition-delay: 0.5s; }
 .container.active .link-item:nth-child(4) { transition-delay: 0.65s; }
+.container.active .link-item:nth-child(5) { transition-delay: 0.8s; }
+.container.active .link-item:nth-child(6) { transition-delay: 0.95s; }
 
 /* Desain Ikon Tautan */
 .link-icon {
