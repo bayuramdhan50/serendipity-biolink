@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page resmi Serendipity Community. Temukan tautan ke Discord, grup Roblox, map Roblox, dan dukung kami melalui Saweria.">
+  <title>Serendipity Community | Biolink Resmi</title>
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  
+  <!-- Font Integrasi (Google Fonts - Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Gaya Utama -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <main class="container" id="main-container">
+    <!-- Header Profil -->
+    <header class="profile-header">
+      <div class="avatar-wrapper">
+        <img class="profile-avatar" src="assets/images/profile-pic.jpg" alt="Foto Profil Serendipity Community">
+      </div>
+      <h1 class="profile-name">Serendipity Community</h1>
+      <p class="profile-bio">Pusat Komunitas Gaming & Serendipity Roblox. Bergabunglah dengan petualangan kami!</p>
+    </header>
+
+    <!-- Daftar Tautan (Links) -->
+    <section class="links-container">
+      
+      <!-- 1. Saweria -->
+      <a href="https://saweria.co/" class="link-item" data-platform="saweria" target="_blank" rel="noopener noreferrer" id="link-saweria">
+        <span class="link-icon">
+          <img src="assets/images/logo-saweria.svg" alt="Saweria" width="24" height="24">
+        </span>
+        <span class="link-title">Dukung Kami di Saweria</span>
+        <span class="link-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </span>
+      </a>
+
+      <!-- 2. Discord -->
+      <a href="https://discord.gg/" class="link-item" data-platform="discord" target="_blank" rel="noopener noreferrer" id="link-discord">
+        <span class="link-icon">
+          <img src="assets/images/logo-discord.svg" alt="Discord" width="24" height="24">
+        </span>
+        <span class="link-title">Gabung Server Discord</span>
+        <span class="link-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </span>
+      </a>
+
+      <!-- 3. Map Roblox -->
+      <a href="https://www.roblox.com/games/" class="link-item" data-platform="roblox-map" target="_blank" rel="noopener noreferrer" id="link-roblox-map">
+        <span class="link-icon">
+          <img src="assets/images/logo-roblox.svg" alt="Roblox Map" width="24" height="24">
+        </span>
+        <span class="link-title">Mainkan Map Roblox Kami</span>
+        <span class="link-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </span>
+      </a>
+
+      <!-- 4. Komunitas Roblox (Group) -->
+      <a href="https://www.roblox.com/groups/" class="link-item" data-platform="roblox-group" target="_blank" rel="noopener noreferrer" id="link-roblox-group">
+        <span class="link-icon">
+          <img src="assets/images/logo-roblox.svg" alt="Roblox Group" width="24" height="24">
+        </span>
+        <span class="link-title">Gabung Grup Roblox</span>
+        <span class="link-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </span>
+      </a>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="profile-footer">
+      <p>&copy; <span id="year">2026</span> <span class="copyright-brand">Serendipity Community</span>. All Rights Reserved.</p>
+    </footer>
+  </main>
+
+  <!-- Logika Utama -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Update tahun copyright secara dinamis
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
